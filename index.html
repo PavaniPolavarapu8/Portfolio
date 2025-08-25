@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+  <header>
+    <nav>
+      <h1 class="logo">My Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ 
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm <span>Pavani Polavarpu</span></h2>
+      <p>A Web Developer passionate about building interactive websites and Java applications.</p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+    <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+  </section>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+    I'm a frontend developer with experience in HTML, CSS, and JavaScript. 
+    My goal is to become a full-stack developer, and I'm actively learning Java to broaden my skills and work with server-side logic. 
+    I love creating beautiful, responsive websites that provide value.
+    </p>  
+  </section>
+
+ 
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+       <a href="https://github.com/PavaniPolavarapu8/Expense-Tracker" target="_blank"> <img src="images/project1.png" alt="Project 1" ></a>
+        <h3>Console based Expense-Tracking System</h3>
+        <p>This project provides a comprehensive expense management system where users can create accounts, securely log in, add expenses with categories and dates, view their spending history, and analyze expenses by category. All data is automatically saved and persists between program sessions using Java serialization.</p>
+      </div>
+      <div class="project-card">
+       <a href="https://github.com/PavaniPolavarapu8/Tic_Tac_Toe" target="_blank"> <img src="images/project2.jpeg" alt="Project 2"></a>
+        <h3>Console based Tic-Tac-Toe</h3>
+        <p>This project provides a fully functional command-line Tic-Tac-Toe game that can be played by two players taking turns. The game features a simple ASCII board display and handles all game logic including win detection, draw conditions, input validation, and game state management.</p>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  
+  <footer>
+    <p>© 2025 Pavani Polavarapu. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
